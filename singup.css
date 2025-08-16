@@ -1,0 +1,43 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(135deg, #11998e, #38ef7d);
+
+}
+input {
+    display: flex;
+    flex-direction: column;
+    padding: 15px 25px;
+    margin: 6px;
+    font-style: italic;
+    border-radius: 20px;
+    background-color: rgb(194, 246, 229);
+    font-size: 17px;
+
+    &:focus {
+        background-color: rgb(255, 255, 255);
+        transition: 0.5s;
+    }
+}
+.send {
+    margin-top: 14px;
+    font-style: italic;
+    color: rgb(0, 0, 0);
+    background-color: #2dc592;
+    padding: 10px 25px;
+    cursor: pointer;
+    font-size: 20px;
+}
+.buttons {
+    display: flex;
+    align-items: center;
+}
+.buttons a {
+    padding: 20px;
+    font-size: 20px;
+    text-decoration: none;
+    font-style: italic;
+}
