@@ -1,0 +1,182 @@
+body {
+    display: flex;
+    justify-content: center;
+    background-color:  hsl(30, 54%, 90%); 
+    
+    
+}
+.box {
+    background-color: hsl(0, 0%, 100%) ;
+    width:650px;
+    height: 1600px;
+    margin: 70px;
+    border-radius: 15px;
+
+}
+.pic{
+    width: 580px;
+    margin: 14px;
+    margin-right: 12px;
+    padding-left: 23px;
+    padding-right: 13px;
+    padding-top: 13px;
+    border-radius: 25px;
+}
+h1 {
+
+    margin-right: 80px;
+    color: hsl(24, 5%, 18%);
+    padding-left: 29px;
+    margin-top: 5px;
+    font-family:  serif;
+    font-weight: 700;
+}
+.p{
+    font-size: 16px;
+    padding-left: 29px;
+    font-weight: 400px;
+}
+.head {
+    color:hsl(332, 51%, 32%);
+    padding-left: 18px;
+    padding-top: 5px;
+
+  
+}
+.time {
+    background-color: hsl(330, 100%, 98%);
+    width: 600px;
+    height: 180px;
+    margin-left: 30px;
+    border-radius: 18px;
+}
+ul li::marker {
+    color: hsl(332, 51%, 32%);
+}
+ul li {
+    padding-left: 12px;
+    margin-bottom: 10px;
+}
+.head2 {
+    margin-top: 30px;
+    padding-left: 30px;
+    color: hsl(14, 45%, 36%);
+}
+
+.two li::marker {
+    color: hsl(14, 45%, 36%);
+}
+.two li{
+    padding-left: 15px;
+    margin-left: 15px;
+
+}
+hr {
+    margin-top: 30px;
+    margin-left: 33px;
+    margin-right: 33px;
+}
+.h {
+     margin-top: 30px;
+    padding-left: 30px;
+    color: hsl(14, 45%, 36%);
+}
+
+.three li::marker {
+    color:  hsl(14, 45%, 36%);
+}
+.three li {
+    margin-left: 15px;
+    padding: 5px;
+}
+.four {
+     margin-top: 30px;
+    padding-left: 30px;
+    color: hsl(14, 45%, 36%);
+}
+.para {
+    padding-left: 35px;
+}
+.table1 {
+  width: 80%;
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+  font-size: 15px;
+  color: #4a4a4a;
+}
+
+
+ tr:not(:last-child) {
+  border-bottom: 2px  #ddd; /* خط فاصل تحت كل صف ماعدا الأخير */
+  
+}
+
+td {
+      padding-left: 50px;
+      padding-top:20px ;
+
+  /* padding: 10px ; */
+}
+
+td:first-child {
+  font-weight: 600;   /* العمود الأول غامق */
+  color: #666;
+}
+
+td:last-child {
+  text-align: right;  /* يخلي القيم يمين */
+  font-weight: bold;
+  color: #8b3a2b;     /* نفس اللون البني المستخدم */
+}
+/* إعدادات عامة للموقع */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* صورة أو فيديو ليكون مرن */
+img, video {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Media Query للهواتف */
+@media (max-width: 768px) {
+  /* تصغير الخطوط والمسافات */
+  body {
+    font-size: 16px;
+  }
+
+  .container {
+    padding: 10px;
+  }
+
+  /* لو عندك قائمة أفقية، تخليها رأسية */
+  nav ul {
+    flex-direction: column;
+    padding: 0;
+  }
+
+  nav ul li {
+    margin-bottom: 10px;
+  }
+
+  /* صور تملأ الشاشة */
+  img {
+    width: 100%;
+  }
+
+  /* مثال لأزرار أكبر للهاتف */
+  button {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+  }
+}
